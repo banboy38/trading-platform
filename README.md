@@ -3,7 +3,7 @@
 
 First clone repo
 
-- Step 1
+- Step 1 <br/>
   ```npm i```
 
 - Step 2
