@@ -1,10 +1,11 @@
 # Trading Platform
 ## React + Vite + Javascript + SWC
 
-First clone repo
+- Step 1 <br/><br/>
+  Clone repo
 
-- Step 1 <br/>
+- Step 2 <br/><br/>
   ```npm i```
 
-- Step 2
+- Step 3 <br/><br/>
   ```npm run dev```
