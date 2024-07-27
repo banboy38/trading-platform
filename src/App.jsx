@@ -81,7 +81,7 @@ export default function App() {
         </div>
 
         {/* Main Table */}
-        <div className='flex flex-col gap-2 w-full h-[30rem] border border-[#777] p-2 text-sm rounded-md text-gray-800 font-semibold'>
+        <div className='flex flex-col gap-2 w-full min-h-[30rem] border border-[#777] p-2 text-sm rounded-md text-gray-800 font-semibold'>
           
           {/* Header Row */}
           <div className='flex items-center gap-1 p-2 h-[3rem] border bg-[#e0e0e0] border-[#A4A4A4] shadow-sm rounded-md'>
