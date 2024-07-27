@@ -26,7 +26,7 @@ export default function App() {
       "currentPrice": 105.0,
       "profitLoss": 50.0,
       "dayChange": 5.0,
-      "dayChangePercent": 5.0
+      "dayChangePercent": 5.0
     },
   ])
 
@@ -67,7 +67,7 @@ export default function App() {
     //   etc.....
     // ]
     
-    axios.get(`http://localhost:{ENTER_PORT_NUMBER_HERE}/${activeBroker}/api/portfolios`)
+    axios.get(`http://localhost:ENTER_PORT_NUMBER_HERE/${activeBroker}/api/portfolios`)
     .then((res)=>{
 
       console.log(res.data);
