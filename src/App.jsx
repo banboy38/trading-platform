@@ -84,7 +84,7 @@ export default function App() {
         <div className='flex flex-col gap-2 w-full h-[30rem] border border-[#777] p-2 text-sm rounded-md text-gray-800 font-semibold'>
           
           {/* Header Row */}
-          <div className='flex items-center gap-1 p-2 h-[3rem] border bg-[#e0e0e0] border-[#A4A4A4] rounded-md'>
+          <div className='flex items-center gap-1 p-2 h-[3rem] border bg-[#e0e0e0] border-[#A4A4A4] shadow-sm rounded-md'>
 
             <div className='text-[0.85rem] text-ellipsis text-nowrap overflow-hidden text-center w-[11.11%]'>
               Company Name
@@ -136,6 +136,64 @@ export default function App() {
 
             <div className='text-[0.85rem] text-ellipsis text-nowrap overflow-hidden text-center w-[11.11%]'>
               Day Change %
+            </div>
+
+          </div>
+          
+          {/* Body rows */}
+          {/* Use a map to return all rows */}
+          <div className='flex items-center gap-1 p-2 h-[3rem] bg-white shadow-sm rounded-md'>
+
+            <div className='text-[0.85rem] text-ellipsis text-nowrap overflow-hidden text-center w-[11.11%]'>
+              Asian Paints
+            </div>
+
+            <div className='h-full w-[0.7px] bg-[#b8b8b8]'/>
+
+            <div className='text-[0.85rem] text-ellipsis text-nowrap overflow-hidden text-center w-[11.11%]'>
+              NSE
+            </div>
+
+            <div className='h-full w-[0.7px] bg-[#b8b8b8]'/>
+
+            <div className='text-[0.85rem] text-ellipsis text-nowrap overflow-hidden text-center w-[11.11%]'>
+              2980
+            </div>
+
+            <div className='h-full w-[0.7px] bg-[#b8b8b8]'/>
+
+            <div className='text-[0.85rem] text-ellipsis text-nowrap overflow-hidden text-center w-[11.11%]'>
+              1
+            </div>
+
+            <div className='h-full w-[0.7px] bg-[#b8b8b8]'/>
+
+            <div className='text-[0.85rem] text-ellipsis text-nowrap overflow-hidden text-center w-[11.11%]'>
+              2980
+            </div>
+
+            <div className='h-full w-[0.7px] bg-[#b8b8b8]'/>
+
+            <div className='text-[0.85rem] text-ellipsis text-nowrap overflow-hidden text-center w-[11.11%]'>
+              2948
+            </div>
+
+            <div className='h-full w-[0.7px] bg-[#b8b8b8]'/>
+
+            <div className='text-[0.85rem] text-ellipsis text-nowrap overflow-hidden text-center w-[11.11%]'>
+              -32
+            </div>
+
+            <div className='h-full w-[0.7px] bg-[#b8b8b8]'/>
+
+            <div className='text-[0.85rem] text-ellipsis text-nowrap overflow-hidden text-center w-[11.11%]'>
+              4
+            </div>
+
+            <div className='h-full w-[0.7px] bg-[#b8b8b8]'/>
+
+            <div className='text-[0.85rem] text-ellipsis text-nowrap overflow-hidden text-center w-[11.11%]'>
+              0.2%
             </div>
 
           </div>
